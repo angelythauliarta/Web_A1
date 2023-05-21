@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Game Matematika untuk Anak-Anak</title>
+    <link rel="stylesheet" href="styl.css">
+        <style>
+        *{ 
+             background-color: rgb(135, 195, 252);
+        }
+        </style>
+  </head>
+  <body>
+    <h1 style="font-family: 'Bell MT', 'Comic Sans MS', Geneva, Verdana, sans-serif;color: #3f0202;background-color: #c2ccff; text-align: center;">Game Matematika Sederhana</h1>
+    <p style="font-size: 21px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Jawablah pertanyaan berikut dengan mengisi jawaban yang benar. Klik "Jawab" apabila kamu merasa jawaban sudah benar. Setelah itu akan muncul pernyataan apakah jawabanmu benar atau salah, setelah itu klik "berikutnya" untuk menjawab soal berikutnya.</p> 
+    <p style="font-size: 23px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #940500;">Selamat Mengerjakan!!!</p>
+    <center><div id="question"></div></center>
+    <form>
+      <center><input type="number" id="answer"></center>
+      <p style="font-size: 28px;"><center><button type="submit">Jawab</button></center></p>
+    </form>
+    <center><div id="result"></div></center>
+    <center><button id="next">Selanjutnya</button></center>
+    <script src="games.js"></script>
+    <link rel="stylesheet" href="kode.css">
+    <style>
+      *{ 
+      #question {
+        font-size: 27px;
+        margin-bottom: 20px;
+      }
+      #answer {
+        font-size: 22px;
+        width: 90px;
+      }
+      #result {
+        font-size: 24px;
+        margin-top: 20px;
+      }
+      #next {
+        font-size: 20px;
+        display: none;
+      }
+    }
+  </body>
+</html>
